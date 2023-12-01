@@ -1,0 +1,518 @@
+# Copyright (C) 2022 Give-Stripe
+# This file is distributed under the same license as the Give-Stripe package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Give-Stripe\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: GiveWP <info@givewp.com>\n"
+"Report-Msgid-Bugs-To: https://github.com/impress-org/give-stripe/issues/new\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: 1. GiveWP account login page, 2. GiveWP Account downloads page
+#: give-stripe.php:273
+msgid "<strong>Attention:</strong> The Stripe Premium plugin requires the latest version of the Recurring donations add-on to process donations properly. Please update to the latest version of Recurring donations plugin to resolve this issue. If your license is active you should see the update available in WordPress. Otherwise, you can access the latest version by <a href=\"%1$s\" target=\"_blank\">logging into your account</a> and visiting <a href=\"%2$s\" target=\"_blank\">your downloads</a> page on the GiveWP website."
+msgstr ""
+
+#: give-stripe.php:306, src/PaymentMethods/Plaid/PlaidGateway.php:110
+msgid "Stripe + Plaid"
+msgstr ""
+
+#: give-stripe.php:307, src/PaymentMethods/Plaid/PlaidGateway.php:118
+msgid "Bank Account"
+msgstr ""
+
+#. translators: %s: GiveWP Website Link.
+#: give-stripe.php:350
+msgid "<strong>Activation Error:</strong> You must have the <a href=\"%s\" target=\"_blank\">Give</a> plugin installed and activated for GiveWP - Stripe to activate."
+msgstr ""
+
+#. translators: 1: GiveWP Website Link, 2: GiveWP Version
+#: give-stripe.php:385
+msgid "<strong>Activation Error:</strong> You must have the <a href=\"%1$s\" target=\"_blank\">Give</a> core version %2$s for the GiveWP - Stripe add-on to activate."
+msgstr ""
+
+#. translators: %s: GiveWP Documentation URL
+#: give-stripe.php:400
+msgid "<strong>Activation Error:</strong> You must have the <a href=\"%s\" target=\"_blank\">cURL</a> installed for the GiveWP - Stripe gateway add-on to activate."
+msgstr ""
+
+#: give-stripe.php:434
+msgid "Stripe Gateway"
+msgstr ""
+
+#: includes/actions.php:46
+msgid "or Pay with Card"
+msgstr ""
+
+#: includes/class-give-stripe-email-tags.php:45
+msgid "Stripe Transaction ID."
+msgstr ""
+
+#: includes/give-stripe-helpers.php:99
+msgid "Plaid API Error"
+msgstr ""
+
+#. translators: %s Error Message
+#. translators: %s Error Message
+#. translators: %s Error Message
+#: includes/give-stripe-helpers.php:102, src/PaymentMethods/Plaid/Actions/RetrieveTokenForPaymentFromPlaid.php:118, src/PaymentMethods/Plaid/Actions/RetrieveTokenForPaymentFromPlaid.php:150
+msgid "An error occurred when processing a donation via Plaid's API. Details: %s"
+msgstr ""
+
+#: includes/give-stripe-helpers.php:106, src/PaymentMethods/Plaid/Controllers/AchLinkTokenController.php:85
+msgid "There was an API error received from the payment gateway. Please try again."
+msgstr ""
+
+#: includes/give-stripe-helpers.php:192
+msgid "ERROR:"
+msgstr ""
+
+#: includes/give-stripe-helpers.php:195
+msgid "In order to donate using Apple or Google Pay the connection needs to be secure. Please visit the secure donation URL (https) to give using this payment method."
+msgstr ""
+
+#: includes/give-stripe-helpers.php:197
+msgid "Either you do not have a saved card to donate with Google Pay or you're using an older version of Chrome without Google Pay support."
+msgstr ""
+
+#: includes/give-stripe-helpers.php:199
+msgid "Either your browser does not support Apple Pay or you do not have a saved payment method."
+msgstr ""
+
+#: includes/admin/admin-actions.php:34
+msgid "Stripe Customer ID"
+msgstr ""
+
+#: includes/admin/admin-actions.php:41
+msgid "None found"
+msgstr ""
+
+#: includes/admin/admin-actions.php:43
+msgid "This donor does not have a Stripe Customer ID. They likely made their donation(s) using another gateway. You can attach this donor to an existing Stripe Customer by updating this field."
+msgstr ""
+
+#: includes/admin/admin-actions.php:50
+msgid "Update"
+msgstr ""
+
+#: includes/admin/admin-actions.php:54
+msgid "Submit"
+msgstr ""
+
+#: includes/admin/admin-actions.php:56
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/admin-actions.php:86
+msgid "You do not have permission to edit this donor."
+msgstr ""
+
+#: includes/admin/admin-actions.php:86, includes/admin/admin-actions.php:98
+msgid "Error"
+msgstr ""
+
+#: includes/admin/admin-actions.php:98
+msgid "WP nonce verification failed."
+msgstr ""
+
+#. translators: %s Plaid Settings URL
+#: includes/admin/admin-actions.php:147
+msgid "<strong>Notice:</strong> You currently are using GiveWP in test mode but have Plaid's API in development/live mode. <a href=\"%1$s\">Click here</a> to change the Plaid API mode."
+msgstr ""
+
+#. translators: %s Plaid Settings URL
+#: includes/admin/admin-actions.php:162
+msgid "<strong>Notice:</strong> You currently are using GiveWP in live mode but have Plaid's API in test mode. <a href=\"%1$s\">Click here</a> to change the Plaid API mode."
+msgstr ""
+
+#: includes/admin/admin-actions.php:195
+msgid "Please update the <strong>GiveWP Recurring Donations</strong> add-on to version 1.7+ to be compatible with the latest version of the Stripe payment gateway."
+msgstr ""
+
+#: includes/admin/admin-actions.php:205
+msgid "Please update the <strong>GiveWP Recurring Donations</strong> add-on to version 1.8+ to be compatible with the latest version of the Stripe payment gateway."
+msgstr ""
+
+#. translators: %1$s Stripe Logs URL
+#: includes/admin/admin-actions.php:244
+msgid "An error occurred while registering your site domain with Apple Pay. Please <a href=\"%1$s\">review the error</a> under the Stripe logs."
+msgstr ""
+
+#: includes/admin/admin-actions.php:255
+msgid "You have successfully registered your site domain. You can now begin accepting donations using Apple Pay via Stripe."
+msgstr ""
+
+#: includes/admin/admin-filters.php:32
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/admin-filters.php:71
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/admin-filters.php:85
+msgid "Add-ons"
+msgstr ""
+
+#: includes/admin/class-give-stripe-apple-pay-registration.php:102
+msgid "Stripe Error"
+msgstr ""
+
+#: includes/admin/class-give-stripe-apple-pay-registration.php:103
+msgid "We can not access the Apple Developer Merchant ID domain association file. Please contact the support team to fix this issue."
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:83
+msgid "Stripe"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:106
+msgid "Plaid (ACH)"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:107
+msgid "Google/Apple Pay"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:132
+msgid "Enter API Keys"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:156, includes/admin/give-stripe-settings.php:282
+msgid "Configure Apple Pay"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:164
+msgid "Button Appearance"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:165
+msgid "Adjust the appearance of the button style for Google and Apple Pay."
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:171
+msgid "Light"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:172
+msgid "Light Outline"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:173
+msgid "Dark"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:178, includes/admin/give-stripe-settings.php:181, includes/admin/give-stripe-settings.php:229, includes/admin/give-stripe-settings.php:232
+msgid "Stripe Gateway Documentation"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:197
+msgid "API Mode"
+msgstr ""
+
+#. translators: %s Plaid API Host Documentation URL
+#: includes/admin/give-stripe-settings.php:200
+msgid "Plaid has several API modes for testing and live transactions. \"Test\" mode allows you to test with a single sample bank account. \"Development\" mode allows you to accept up to 100 live donations without paying. \"Live\" mode allows for unlimited donations. Read the <a target=\"_blank\" title=\"Plaid API Docs\" href=\"%1$s\">Plaid API docs</a> for more information."
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:208
+msgid "Test"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:209
+msgid "Development"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:210
+msgid "Live"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:215
+msgid "Plaid Client ID"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:216
+msgid "Enter your Plaid Client ID, found in your Plaid account dashboard."
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:222
+msgid "Plaid Secret Key"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:223
+msgid "Enter your Plaid secret key, found in your Plaid account dashboard."
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:289
+msgid "Error: Apple Pay can not be registered for a subdirectory site within a WordPress multisite environment due to Apple restrictions."
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:303
+msgid "Account name"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:315
+msgid "API Keys"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:324
+msgid "Register domain"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:330
+msgid "Registered"
+msgstr ""
+
+#: includes/admin/give-stripe-settings.php:335
+msgid "Reset"
+msgstr ""
+
+#. translators: 1. Stripe Apple settings page.
+#: includes/admin/give-stripe-settings.php:348
+msgid "This option will help you <a href=\"%1$s\" target=\"_blank\">register your domain</a> to support Apple Pay for each of your Stripe accounts."
+msgstr ""
+
+#: src/Settings/AdminAssets.php:46
+msgid "Add"
+msgstr ""
+
+#: src/Settings/AdminAssets.php:47
+msgid "Adding"
+msgstr ""
+
+#: src/Settings/AdminAssets.php:48
+msgid "Added"
+msgstr ""
+
+#: src/Settings/StripeApiKeysAccountEditActions.php:36
+msgid "Edit"
+msgstr ""
+
+#: src/Donors/Views/DonorProfilePlaidSection.php:27
+msgid "Plaid Client User ID"
+msgstr ""
+
+#: src/PaymentMethods/ApplePay/ApplePayGateway.php:27
+msgid "Apple Pay button is disabled because your site is not running securely over HTTPS."
+msgstr ""
+
+#: src/PaymentMethods/ApplePay/ApplePayGateway.php:31
+msgid "Apple Pay button is disabled because Stripe is not connected and your site is not running securely over HTTPS."
+msgstr ""
+
+#: src/PaymentMethods/ApplePay/ApplePayGateway.php:35
+msgid "Apple Pay button is disabled. Please connect and configure your Stripe account to accept donations."
+msgstr ""
+
+#: src/PaymentMethods/ApplePay/ApplePayGateway.php:91
+msgid "Stripe - Apple Pay"
+msgstr ""
+
+#: src/PaymentMethods/ApplePay/ApplePayGateway.php:99
+msgid "Apple Pay"
+msgstr ""
+
+#: src/PaymentMethods/ApplePay/ServiceProvider.php:53
+msgid "If enabled, donors will be able to make donations using Apple Pay on desktops or iPhones using the Safari browser."
+msgstr ""
+
+#: src/PaymentMethods/GooglePay/GooglePayGateway.php:28
+msgid "Google Pay button is disabled because your site is not running securely over HTTPS."
+msgstr ""
+
+#: src/PaymentMethods/GooglePay/GooglePayGateway.php:32
+msgid "Google Pay button is disabled because Stripe is not connected and your site is not running securely over HTTPS."
+msgstr ""
+
+#: src/PaymentMethods/GooglePay/GooglePayGateway.php:36
+msgid "Google Pay button is disabled. Please connect and configure your Stripe account to accept donations."
+msgstr ""
+
+#: src/PaymentMethods/GooglePay/GooglePayGateway.php:92
+msgid "Stripe - Google Pay"
+msgstr ""
+
+#: src/PaymentMethods/GooglePay/GooglePayGateway.php:100
+msgid "Google Pay"
+msgstr ""
+
+#: src/PaymentMethods/GooglePay/ServiceProvider.php:39
+msgid "If enabled, donors will be able to make donations using Google Pay on desktops or Android devices using the Chrome browser."
+msgstr ""
+
+#: src/PaymentMethods/Ideal/IdealGateway.php:65
+msgid "Make your donation quickly and securely with iDEAL"
+msgstr ""
+
+#: src/PaymentMethods/Ideal/IdealGateway.php:66, src/PaymentMethods/Plaid/PlaidGateway.php:80
+msgid "How it works:"
+msgstr ""
+
+#: src/PaymentMethods/Ideal/IdealGateway.php:67
+msgid "In order to pay with iDEAL, you will be redirected to your online banking website where you can authenticate and confirm the donation payment."
+msgstr ""
+
+#: src/PaymentMethods/Ideal/IdealGateway.php:99
+msgid "Stripe iDEAL"
+msgstr ""
+
+#: src/PaymentMethods/Ideal/IdealGateway.php:108
+msgid "iDEAL"
+msgstr ""
+
+#: src/PaymentMethods/Ideal/IdealGateway.php:159
+msgid "Stripe Ideal Payment Error"
+msgstr ""
+
+#: src/PaymentMethods/Ideal/IdealGateway.php:168
+msgid "An error occurred while processing the donation. Please try again."
+msgstr ""
+
+#: src/PaymentMethods/Ideal/IdealGateway.php:209, src/PaymentMethods/Ideal/IdealGateway.php:216
+msgid "Stripe Ideal Payment Authentication Error"
+msgstr ""
+
+#: src/PaymentMethods/Plaid/PlaidGateway.php:79
+msgid "Make your donation quickly and securely directly through your bank account"
+msgstr ""
+
+#: src/PaymentMethods/Plaid/PlaidGateway.php:81
+msgid "A window will open after you click the Donate Now button where you can securely make your donation through your bank account. You will then be brought back to this page to view your receipt."
+msgstr ""
+
+#. translators: 1: Exception Error Message
+#: src/PaymentMethods/Traits/CreateCharge.php:42
+msgid "Unable to create a successful charge. Details: %1$s"
+msgstr ""
+
+#. translators: 1: Exception Error Message
+#: src/PaymentMethods/Traits/CreateSource.php:42
+msgid "Unable to create a successful source. Details: %1$s"
+msgstr ""
+
+#. translators: %s Exception Message Body
+#: src/PaymentMethods/Traits/RetrieveSource.php:36
+msgid "Unable to retrieve source. Details: %s"
+msgstr ""
+
+#. translators: 1: Exception Message Body
+#: src/PaymentMethods/Traits/RetrieveToken.php:39
+msgid "Unable to retrieve token. Details: %1$s"
+msgstr ""
+
+#: src/resources/views/stripe-api-key-registration-form.php:6
+msgid "Account Name"
+msgstr ""
+
+#: src/resources/views/stripe-api-key-registration-form.php:10
+msgid "Enter your account name. It will help you to identify Stripe account."
+msgstr ""
+
+#: src/resources/views/stripe-api-key-registration-form.php:18
+msgid "Live Secret Key"
+msgstr ""
+
+#: src/resources/views/stripe-api-key-registration-form.php:23
+msgid "Enter your live secret key, found in your Stripe Account Settings."
+msgstr ""
+
+#: src/resources/views/stripe-api-key-registration-form.php:31
+msgid "Live Publishable Key"
+msgstr ""
+
+#: src/resources/views/stripe-api-key-registration-form.php:36
+msgid "Enter your live publishable key, found in your Stripe Account Settings."
+msgstr ""
+
+#: src/resources/views/stripe-api-key-registration-form.php:44
+msgid "Test Secret Key"
+msgstr ""
+
+#: src/resources/views/stripe-api-key-registration-form.php:49
+msgid "Enter your test secret key, found in your Stripe Account Settings."
+msgstr ""
+
+#: src/resources/views/stripe-api-key-registration-form.php:57
+msgid "Test Publishable Key"
+msgstr ""
+
+#: src/resources/views/stripe-api-key-registration-form.php:62
+msgid "Enter your test publishable key, found in your Stripe Account Settings."
+msgstr ""
+
+#: src/Settings/Controllers/AddStripeAccountApiKeysController.php:34
+msgid "You are adding already connected account. Please use new Stripe api keys to connected new account."
+msgstr ""
+
+#: src/Settings/Controllers/AddStripeAccountApiKeysController.php:41
+msgid "Stripe account already exist with same name. Please use different account name."
+msgstr ""
+
+#. translators: %s Exception Message Body
+#: src/PaymentMethods/ApplePay/Controllers/RegisterApplePayDomainController.php:73
+msgid "Unable to register domain association with Apple Pay. Details: %s"
+msgstr ""
+
+#: src/PaymentMethods/ApplePay/Controllers/RegisterApplePayDomainController.php:86, src/PaymentMethods/ApplePay/Controllers/ResetRegisteredApplePayDomainController.php:84
+msgid "Unauthorized access."
+msgstr ""
+
+#: src/PaymentMethods/ApplePay/Controllers/RegisterApplePayDomainController.php:99, src/PaymentMethods/ApplePay/Controllers/ResetRegisteredApplePayDomainController.php:94
+msgid "Invalid Stripe account."
+msgstr ""
+
+#. translators: %s Exception Message Body
+#: src/PaymentMethods/ApplePay/Controllers/ResetRegisteredApplePayDomainController.php:71
+msgid "Unable to unregister domain association with Apple Pay. Details: %s"
+msgstr ""
+
+#. translators: 1. Current Currency
+#: src/PaymentMethods/Ideal/Notices/InvalidDonationCurrencyNotice.php:31
+msgid "%1$s is not supported currency with iDEAL. Please try with EUR currency."
+msgstr ""
+
+#. translators: 1: Currency Settings Admin URL
+#: src/PaymentMethods/Ideal/Notices/SupportedCurrencyNotice.php:26
+msgid "The currency must be set as \"Euro\" within Give's <a href=\"%1$s\">Currency Settings</a> in order to use the Stripe iDEAL payment gateway."
+msgstr ""
+
+#: src/PaymentMethods/Plaid/Actions/GetOrAddBankAccountToStripeCustomer.php:36
+msgid "There was a problem identifying your bank account with the payment gateway. Please try you donation again."
+msgstr ""
+
+#: src/PaymentMethods/Plaid/Actions/GetStripeAchDataFromRequest.php:26
+msgid "The Stripe ACH gateway failed to generate the Plaid token. Please try your donation again."
+msgstr ""
+
+#: src/PaymentMethods/Plaid/Actions/GetStripeAchDataFromRequest.php:35
+msgid "The Stripe ACH gateway failed to generate the Plaid account ID. Please try your donation again."
+msgstr ""
+
+#: src/PaymentMethods/Plaid/Actions/GetStripeAchDataFromRequest.php:51
+msgid "Stripe Bank Account ID: %1$s, Bank Account Token: %2$s"
+msgstr ""
+
+#. translators: %s Error Message
+#: src/PaymentMethods/Plaid/Actions/RetrieveTokenForPaymentFromPlaid.php:72
+msgid "The Stripe ACH gateway failed to make the call to the Plaid server to get the Stripe bank account token along with the Plaid access token that can be used for other Plaid API requests. Details: %s"
+msgstr ""
+
+#: src/PaymentMethods/Plaid/Api/ApiClient.php:74
+msgid "Plaid Api Request Error"
+msgstr ""
+
+#: src/PaymentMethods/Plaid/Api/ApiClient.php:91
+msgid "Plaid Api Error"
+msgstr ""
+
+#. translators: 1: Stripe Plaid Settings Page URL
+#: src/PaymentMethods/Plaid/Notices/EmptyApiKeyNotice.php:38
+msgid "The Plaid API Keys should not be empty in <a href=\"%1$s\">Stripe + Plaid Settings</a> in order to use the Stripe + Plaid payment gateway."
+msgstr ""
